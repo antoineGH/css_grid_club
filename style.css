@@ -88,7 +88,29 @@ p {
 }
 
 /* --- Header --- */
-/* --- Main --- */
+
+header {
+	width: 100%;
+	position: absolute;
+	height: 68px;
+	border-bottom: 1px solid rgba(238, 238, 238, 0.2);
+	z-index: 10;
+	background-color: rgba(13, 17, 37, 0.93);
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+}
+
+a {
+	color: white;
+	font-family: 'Monda', Serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
 /* --- Section --- */
 
 section {
@@ -128,18 +150,26 @@ section .pairing-fonts {
 	z-index: 1;
 	height: 92%;
 	display: grid;
+	grid-template-columns: 1fr;
 	grid-template-rows: 5fr 0.5fr 5fr;
 	align-self: flex-end;
 	align-items: center;
-	justify-content: center;
-	justify-items: center;
+	justify-content: flex-end;
+	justify-items: flex-end;
 }
 
 section .pairing-fonts p {
 	font-family: 'Monda', Serif;
 	text-transform: uppercase;
 	color: white;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
+	opacity: 0.6;
+	margin-right: 2rem;
+	font-weight: lighter;
+}
+
+section .pairing-fonts i {
+	margin-right: 2rem;
 }
 
 section .pairing-sample {
