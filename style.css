@@ -73,32 +73,6 @@ html {
 		U+FEFF, U+FFFD;
 }
 
-/* --- Available Fonts: */
-/* 
-"Abril Fatface"
-"Arvo"
-"Bitter"
-"Cabin"
-"Cormorant Garamond"
-"Fira Sans"
-"Lato"
-"Lora"
-"Noto Serif"
-"Open Sans"
-"Oxygen"
-"PT Sans"
-"Playfair Display"
-"Poppins"
-"Raleway"
-"Roboto Condensed"
-"Roboto Slab"
-"Roboto"
-"Ruda"
-"Source Sans Pro" 
-"Montserrat" 
-"Monda" 
-*/
-
 /* --- Titles & Text ---*/
 h1,
 h2,
@@ -203,16 +177,16 @@ section .pairing-fonts p {
 	color: white;
 	font-size: 0.9rem;
 	opacity: 0.6;
-	margin-right: 2rem;
+	margin-right: 2.5rem;
 	font-weight: lighter;
 }
 
 section .pairing-fonts i {
-	margin-right: 2rem;
+	margin: auto 2.5rem;
 }
 
 section .pairing-sample {
-	grid-area: 3 / 5 / span 7 / span 7;
+	grid-area: 3 / 5 / span 7 / span 6;
 	background-color: #151717;
 	padding: 0;
 	margin: 0;
@@ -234,11 +208,11 @@ section .pairing-sample .up p {
 	margin-bottom: 1rem;
 	opacity: 0.65;
 	line-height: 1.3rem;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 section .pairing-sample .up .signature {
-	opacity: 0.4;
+	opacity: 0.5;
 	font-style: italic;
 }
 
@@ -257,6 +231,7 @@ section .pairing-sample .down p {
 	font-family: 'Monda', Serif;
 	font-size: 0.8rem;
 }
+
 .view-font {
 	grid-area: 1 / 2 / span 1 / span 1;
 }
@@ -305,6 +280,29 @@ button:hover {
 	background-color: #82919c;
 }
 
+/* Section 1 */
+
+#section1 .up {
+	background-color: #abd174;
+}
+
+#section1 .up h2,
+#section1 .up p {
+	color: #131313;
+}
+
+#section1 .down {
+	background-color: #f6f599;
+}
+
+#section1 .down p {
+	color: #a9a85b;
+}
+
+#section1 .pairing-fonts {
+	background: linear-gradient(to right, rgba(0, 39, 46, 0.75) 0%, rgba(0, 39, 46, 0.8) 41%, rgba(0, 39, 46, 0.92) 80%, rgba(0, 39, 46, 0.93) 100%);
+}
+
 #section1 {
 	background-image: url('./img/bg1.jpg');
 }
@@ -320,6 +318,37 @@ button:hover {
 	font-family: 'Cabin';
 }
 
+#section1 button {
+	background-color: #abd174;
+}
+
+/* Section 2 */
+
+#section2 {
+	background-image: url('./img/bg2.jpg');
+}
+
+#section2 .up {
+	background-color: #151717;
+}
+
+#section2 .up h2,
+#section2 .up p {
+	color: #fff;
+}
+
+#section2 .down {
+	background-color: #2b3132;
+}
+
+#section2 .down p {
+	color: #628288;
+}
+
+#section2 .pairing-fonts {
+	background: linear-gradient(to right, rgba(80, 107, 125, 0.75) 0%, rgba(80, 107, 125, 0.82) 38%, rgba(80, 107, 125, 0.96) 72%, rgba(80, 107, 125, 1) 100%);
+}
+
 #section2 .pairing-sample .up h2 {
 	font-weight: 300;
 	font-family: 'Raleway', sans-serif;
@@ -330,6 +359,37 @@ button:hover {
 	font-weight: normal;
 }
 
+#section2 button {
+	background-color: #151717;
+}
+
+/* Section 3 */
+
+#section3 {
+	background-image: url('./img/bg3.jpg');
+}
+
+#section3 .up {
+	background-color: #7aacd0;
+}
+
+#section3 .up h2,
+#section3 .up p {
+	color: #131313;
+}
+
+#section3 .down {
+	background-color: #adc6d8;
+}
+
+#section3 .down p {
+	color: #5b7d96;
+}
+
+#section3 .pairing-fonts {
+	background: linear-gradient(to right, rgba(22, 28, 34, 0.75) 0%, rgba(22, 28, 34, 0.93) 73%, rgba(22, 28, 34, 0.96) 100%);
+}
+
 #section3 .pairing-sample .up h2 {
 	font-style: italic;
 	font-family: 'Playfair Display', serif;
@@ -337,7 +397,39 @@ button:hover {
 
 #section3 .pairing-sample .up p {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1rem;
+	font-size: 0.9rem;
+}
+
+#section3 button {
+	background-color: #7aacd0;
+}
+
+/* Section 4 */
+
+#section4 {
+	background-image: url('./img/bg4.jpg');
+}
+
+#section4 .up {
+	background-color: #e8e174;
+}
+
+#section4 .up h2,
+#section4 .up p {
+	color: #131313;
+}
+
+#section4 .down {
+	background-color: #f8f3aa;
+	color: #b0ad77;
+}
+
+#section4 .down p {
+	color: #b0ad77;
+}
+
+#section4 .pairing-fonts {
+	background: linear-gradient(to right, rgba(22, 28, 34, 0.75) 0%, rgba(22, 28, 34, 0.93) 73%, rgba(22, 28, 34, 0.96) 100%);
 }
 
 #section4 .pairing-sample .up h2 {
@@ -351,6 +443,38 @@ button:hover {
 	font-family: 'Lora', serif;
 }
 
+#section4 button {
+	background-color: #e8e174;
+	color: #131313;
+}
+
+/* Section 5 */
+
+#section5 {
+	background-image: url('./img/bg5.jpg');
+}
+
+#section5 .up {
+	background-color: #8398b2;
+}
+
+#section5 .up h2,
+#section5 .up p {
+	color: #131313;
+}
+
+#section5 .down {
+	background-color: #b9ccdd;
+}
+
+#section5 .down p {
+	color: #7c8b9a;
+}
+
+#section5 .pairing-fonts {
+	background: linear-gradient(to right, rgba(22, 24, 31, 0.74) 0%, rgba(22, 24, 31, 0.76) 26%, rgba(22, 24, 31, 0.9) 72%, rgba(22, 24, 31, 0.93) 100%);
+}
+
 #section5 .pairing-sample .up h2 {
 	font-weight: 400;
 	font-family: 'Abril Fatface', cursive;
@@ -359,8 +483,39 @@ button:hover {
 #section5 .pairing-sample .up p {
 	font-weight: 300;
 	font-family: 'Poppins', sans-serif;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	line-height: 23px;
+}
+
+#section5 button {
+	background-color: #8398b2;
+}
+
+/* Section 6 */
+
+#section6 {
+	background-image: url('./img/bg6.jpg');
+}
+
+#section6 .up {
+	background-color: #f4a972;
+}
+
+#section6 .up h2,
+#section6 .up p {
+	color: #131313;
+}
+
+#section6 .down {
+	background-color: #fbc28f;
+}
+
+#section6 .down p {
+	color: #b1815e;
+}
+
+#section6 .pairing-fonts {
+	background: linear-gradient(to right, rgba(46, 35, 37, 0.75) 0%, rgba(46, 35, 37, 0.76) 21%, rgba(46, 35, 37, 0.94) 74%, rgba(46, 35, 37, 0.98) 100%);
 }
 
 #section6 .pairing-sample .up h2 {
@@ -377,6 +532,37 @@ button:hover {
 	font-size: 0.9rem;
 }
 
+#section6 button {
+	background-color: #f4a972;
+}
+
+/* Section 7 */
+
+#section7 {
+	background-image: url('./img/bg7.jpg');
+}
+
+#section7 .up {
+	background-color: #f5c765;
+}
+
+#section7 .up h2,
+#section7 .up p {
+	color: #131313;
+}
+
+#section7 .down {
+	background-color: #fbda93;
+}
+
+#section7 .down p {
+	color: #5d686c;
+}
+
+#section7 .pairing-fonts {
+	background: linear-gradient(to right, rgba(24, 38, 52, 0.75) 0%, rgba(24, 38, 52, 0.8) 42%, rgba(24, 38, 52, 0.91) 79%, rgba(24, 38, 52, 0.93) 100%);
+}
+
 #section7 .pairing-sample .up h2 {
 	line-height: 51px;
 	font-weight: 700;
@@ -391,17 +577,87 @@ button:hover {
 	font-family: 'Fira Sans', sans-serif;
 }
 
+#section7 button {
+	background-color: #f5c765;
+	color: #131313;
+}
+
+/* Section 8 */
+
+#section8 {
+	background-image: url('./img/bg8.jpg');
+}
+
+#section8 .up {
+	background-color: #b1cbb3;
+}
+
+#section8 .up h2,
+#section8 .up p {
+	color: #131313;
+}
+
+#section8 .down {
+	background-color: #d2e6d4;
+}
+
+#section8 .down p {
+	color: #889989;
+}
+
+#section8 .pairing-fonts {
+	background: linear-gradient(to right, rgba(13, 27, 46, 0.75) 0%, rgba(13, 27, 46, 0.78) 29%, rgba(13, 27, 46, 0.9) 68%, rgba(13, 27, 46, 0.94) 100%);
+}
+
 #section8 .pairing-sample .up h2 {
 	font-size: 46px;
 	line-height: 44px;
 	font-weight: 700;
-	font-family: 'PT', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 #section8 .pairing-sample .up p {
 	font-size: 1rem;
 	line-height: 23px;
 	font-family: 'Playfair Display', serif;
+}
+
+#section8 button {
+	background-color: #b1cbb3;
+	color: #131313;
+}
+
+/* Section 9 */
+
+#section9 {
+	background-image: url('./img/bg9.jpg');
+}
+
+#section9 .up {
+	background-color: #181716;
+}
+
+#section9 .up h2,
+#section9 .up p {
+	color: #fff;
+}
+
+#section9 .down {
+	background-color: #2f3233;
+}
+
+#section9 .down p {
+	color: #5d686c;
+}
+
+#section9 .pairing-fonts {
+	background: linear-gradient(
+		to right,
+		rgba(62, 109, 127, 0.75) 0%,
+		rgba(62, 109, 127, 0.8) 41%,
+		rgba(62, 109, 127, 0.92) 80%,
+		rgba(62, 109, 127, 0.93) 100%
+	);
 }
 
 #section9 .pairing-sample .up h2 {
@@ -414,6 +670,37 @@ button:hover {
 
 #section9 .pairing-sample .up p {
 	font-family: 'Cabin';
+}
+
+#section9 button {
+	background-color: #181716;
+}
+
+/* Section 10 */
+
+#section10 {
+	background-image: url('./img/bg10.jpg');
+}
+
+#section10 .up {
+	background-color: #bbd46e;
+}
+
+#section10 .up h2,
+#section10 .up p {
+	color: #131313;
+}
+
+#section10 .down {
+	background-color: #e1f19a;
+}
+
+#section10 .down p {
+	color: #9ca86a;
+}
+
+#section10 .pairing-fonts {
+	background: linear-gradient(to right, rgba(19, 33, 46, 0.75) 0%, rgba(19, 33, 46, 0.78) 32%, rgba(19, 33, 46, 0.9) 69%, rgba(19, 33, 46, 0.94) 100%);
 }
 
 #section10 .pairing-sample .up h2 {
@@ -429,32 +716,8 @@ button:hover {
 	font-family: 'Noto Serif', serif;
 }
 
-#section2 {
-	background-image: url('./img/bg2.jpg');
-}
-#section3 {
-	background-image: url('./img/bg3.jpg');
-}
-#section4 {
-	background-image: url('./img/bg4.jpg');
-}
-#section5 {
-	background-image: url('./img/bg5.jpg');
-}
-#section6 {
-	background-image: url('./img/bg6.jpg');
-}
-#section7 {
-	background-image: url('./img/bg7.jpg');
-}
-#section8 {
-	background-image: url('./img/bg8.jpg');
-}
-#section9 {
-	background-image: url('./img/bg9.jpg');
-}
-#section10 {
-	background-image: url('./img/bg10.jpg');
+#section10 button {
+	background-color: #bbd46e;
 }
 
 /* --- Footer --- */
