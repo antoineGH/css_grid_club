@@ -105,7 +105,7 @@ p {
 
 header {
 	width: 100%;
-	position: absolute;
+	position: relative;
 	height: 68px;
 	border-bottom: 1px solid rgba(238, 238, 238, 0.2);
 	z-index: 10;
@@ -132,6 +132,8 @@ a:hover {
 	grid-template-columns: minmax(150px, 1200px);
 	justify-items: center;
 	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 section {
@@ -184,16 +186,16 @@ section .pairing-fonts p {
 	color: white;
 	font-size: 0.9rem;
 	opacity: 0.6;
-	margin-right: 2.5rem;
+	margin-right: 2.2rem;
 	font-weight: lighter;
 }
 
 section .pairing-fonts i {
-	margin: auto 2.5rem;
+	margin: auto 2.2rem;
 }
 
 section .pairing-sample {
-	grid-area: 3 / 5 / span 7 / span 6;
+	grid-area: 3 / 5 / span 6 / span 6;
 	background-color: #151717;
 	padding: 0;
 	margin: 0;
