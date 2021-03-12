@@ -730,6 +730,77 @@ button:hover {
 }
 
 /* --- Footer --- */
+
+footer {
+	top: 70px;
+	padding: 20px;
+	display: flex;
+	justify-content: left;
+	background-color: rgba(13, 17, 37, 0.93);
+	color: white;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(12, 1fr);
+}
+
+footer .footer-navigation {
+	grid-area: 1 / 1 / span 1 / span 12;
+	justify-self: center;
+	align-self: center;
+	display: flex;
+	justify-items: space-around;
+	justify-content: space-around;
+}
+
+.footer-navigation a {
+	font-size: 0.8rem;
+	display: inline;
+	margin: auto 1rem;
+	cursor: pointer;
+}
+
+.footer-navigation p:hover {
+	color: #3cedb7;
+}
+
+.footer-signature p {
+	font-size: 0.8rem;
+	color: #a6a5a5;
+}
+
+.footer-social {
+	grid-area: 2 / 1 / span 1 / span 12;
+	justify-self: center;
+	align-self: center;
+	display: inline-flex;
+	padding: 1rem;
+}
+
+.footer-social i {
+	color: #221e1e;
+	width: 1.8rem;
+	height: 1.8rem;
+	background-color: white;
+	border-radius: 50%;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	margin: auto 0.75rem;
+}
+
+.footer-signature {
+	grid-area: 3 / 1 / span 1 / span 12;
+	border-top: 1px solid #a6a5a5;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1.5rem;
+}
+
+.signature-footer p {
+	margin-top: 1rem;
+}
+
 /* --- Media Query --- */
 
 @media (max-width: 768px) {
