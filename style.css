@@ -803,23 +803,133 @@ footer .footer-navigation {
 
 /* --- Media Query --- */
 
-@media (max-width: 768px) {
-	/* --- Header --- */
-	/* --- Main --- */
-	/* --- Section --- */
-	/* --- Footer --- */
+@media (max-width: 576px) {
+	section {
+		overflow: hidden;
+		min-height: 1000px;
+		height: 65vh;
+		display: grid;
+		grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+	}
+
+	.section-container {
+		height: 170vh;
+	}
+
+	section .pairing-fonts {
+		grid-area: 2 / 2 / span 2 / span 10;
+		justify-content: center;
+		justify-items: center;
+	}
+
+	section .pairing-number {
+		grid-area: 2 / 1 / span 1 / span 3;
+	}
+
+	section .pairing-sample {
+		grid-area: 4 / 2 / span 12 / span 10;
+	}
+
+	section .pairing-sample .down {
+		/* padding: 100%; */
+		padding: auto;
+		height: initial;
+	}
+
+	section .pairing-fonts p {
+		margin-right: 0%;
+	}
+
+	button {
+		width: auto;
+		height: 60%;
+	}
 }
 
-@media (max-width: 992px) {
+@media (min-width: 576px) and (max-width: 768px) {
 	/* --- Header --- */
-	/* --- Main --- */
 	/* --- Section --- */
-	/* --- Footer --- */
+
+	section {
+		overflow: hidden;
+		min-height: 1000px;
+		height: 65vh;
+		display: grid;
+		grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+	}
+
+	section .pairing-sample {
+		grid-area: 4 / 2 / span 5 / span 10;
+	}
+
+	section .pairing-fonts {
+		grid-area: 2 / 2 / span 2 / span 10;
+		justify-content: center;
+		justify-items: center;
+	}
+
+	section .pairing-number {
+		grid-area: 2 / 1 / span 1 / span 3;
+	}
+
+	section .pairing-fonts p {
+		margin-right: 0%;
+	}
+
+	section .pairing-fonts i {
+		margin: auto 0%;
+	}
+
+	.section-container {
+		height: 70vh;
+	}
+
+	section .pairing-sample .down {
+		height: 100%;
+	}
+
+	button {
+		width: auto;
+		height: 60%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	/* --- Section --- */
+
+	section .pairing-sample {
+		grid-area: 2 / 5 / span 6 / span 7;
+	}
+
+	section .pairing-fonts {
+		grid-area: 2 / 2 / span 4 / span 3;
+	}
+
+	section .pairing-number {
+		grid-area: 2 / 1 / span 1 / span 2;
+	}
+
+	button {
+		width: auto;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-	/* --- Header --- */
-	/* --- Main --- */
 	/* --- Section --- */
-	/* --- Footer --- */
+
+	.section-container {
+		grid-template-columns: 1fr;
+	}
+
+	section .pairing-sample {
+		grid-area: 3 / 5 / span 6 / span 7;
+	}
+
+	section .pairing-fonts {
+		grid-area: 3 / 2 / span 4 / span 3;
+	}
+
+	section .pairing-number {
+		grid-area: 3 / 1 / span 1 / span 2;
+	}
 }
