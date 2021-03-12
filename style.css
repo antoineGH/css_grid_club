@@ -127,6 +127,13 @@ a:hover {
 
 /* --- Section --- */
 
+.section-container {
+	display: grid;
+	grid-template-columns: minmax(150px, 1200px);
+	justify-items: center;
+	justify-content: center;
+}
+
 section {
 	overflow: hidden;
 	min-height: 700px;
@@ -303,7 +310,7 @@ button:hover {
 	background: linear-gradient(to right, rgba(0, 39, 46, 0.75) 0%, rgba(0, 39, 46, 0.8) 41%, rgba(0, 39, 46, 0.92) 80%, rgba(0, 39, 46, 0.93) 100%);
 }
 
-#section1 {
+.section-container.section1 {
 	background-image: url('./img/bg1.jpg');
 }
 
@@ -324,7 +331,7 @@ button:hover {
 
 /* Section 2 */
 
-#section2 {
+.section-container.section2 {
 	background-image: url('./img/bg2.jpg');
 }
 
@@ -365,7 +372,7 @@ button:hover {
 
 /* Section 3 */
 
-#section3 {
+.section-container.section3 {
 	background-image: url('./img/bg3.jpg');
 }
 
@@ -406,7 +413,7 @@ button:hover {
 
 /* Section 4 */
 
-#section4 {
+.section-container.section4 {
 	background-image: url('./img/bg4.jpg');
 }
 
@@ -450,7 +457,7 @@ button:hover {
 
 /* Section 5 */
 
-#section5 {
+.section-container.section5 {
 	background-image: url('./img/bg5.jpg');
 }
 
@@ -493,7 +500,7 @@ button:hover {
 
 /* Section 6 */
 
-#section6 {
+.section-container.section6 {
 	background-image: url('./img/bg6.jpg');
 }
 
@@ -538,7 +545,7 @@ button:hover {
 
 /* Section 7 */
 
-#section7 {
+.section-container.section7 {
 	background-image: url('./img/bg7.jpg');
 }
 
@@ -584,7 +591,7 @@ button:hover {
 
 /* Section 8 */
 
-#section8 {
+.section-container.section8 {
 	background-image: url('./img/bg8.jpg');
 }
 
@@ -629,7 +636,7 @@ button:hover {
 
 /* Section 9 */
 
-#section9 {
+.section-container.section9 {
 	background-image: url('./img/bg9.jpg');
 }
 
@@ -678,7 +685,7 @@ button:hover {
 
 /* Section 10 */
 
-#section10 {
+.section-container.section10 {
 	background-image: url('./img/bg10.jpg');
 }
 
