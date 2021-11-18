@@ -13,7 +13,7 @@ This project store Google Font Pairings and is a practice for CSS grid / flexbox
 
 ## Screenshots
 
-![Font Pairing Screenshot](https://templars.guru/app/github/css_grid_club/screenshot_1.PNG)
+![Font Pairing Screenshot](https://github.com/antoineratat/github_docs/blob/main/css_grid_club/screenshot_1.PNG?raw=true)
 
 ## Technologies
 
